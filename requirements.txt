@@ -1,5 +1,5 @@
-fastapi==0.95.2
-uvicorn==0.22.0
+uvicorn
+fastapi
 
 # pystan must be installed before prophet
 # you may need to pip install it on it's own
@@ -8,8 +8,8 @@ uvicorn==0.22.0
 
 pystan==3.7.0
 
-fastapi==0.95.2
-uvicorn==0.22.0
+uvicorn
+fastapi
 
 prophet==1.1.3
 joblib==1.2.0
