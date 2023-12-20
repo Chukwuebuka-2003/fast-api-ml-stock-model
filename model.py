@@ -10,7 +10,7 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent
 TODAY = datetime.date.today()
 
 
-def train(ticker=input("")):
+def train(ticker=input("MSFT")):
     # data = yf.download("^GSPC", "2008-01-01", TODAY.strftime("%Y-%m-%d"))
     data = yf.download(ticker, "2020-01-01", TODAY.strftime("%Y-%m-%d"))
     data.head()
